@@ -13,7 +13,7 @@ namespace RoslynWalker_DotNet5_Sample
 	{
 		private static VisualStudioInstance SelectVisualStudioInstance(VisualStudioInstance[] visualStudioInstances)
 		{
-			Console.WriteLine("Multiple installs of MSBuild detected please select one:");             
+			Console.WriteLine("Multiple installs of MSBuild detected please select one:");              
 			for (int i = 0; i < visualStudioInstances.Length; i++)
 			{
 				Console.WriteLine($"Instance {i + 1}");
